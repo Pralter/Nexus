@@ -1,0 +1,43 @@
+# Arduino/ESP32 Build Artifacts
+build/
+*.o
+*.a
+*.so
+*.elf
+*.hex
+*.bin
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+*.pyc
+
+# Arduino IDE
+*.ino.cpp
+*.ino.c
+*.nino
+libraries/
+
+# Dependencies
+node_modules/
+venv/
+.env
+
+# OS Files
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Project-specific
+*.log
+.DS_Store
+config.local.h
